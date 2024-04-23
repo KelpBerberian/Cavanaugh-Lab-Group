@@ -1,16 +1,4 @@
-your-site-name/
-│
-├── _config.yml
-├── index.html        # Home page
-├── about.html        # Team bios
-├── contact.html      # Contact form
-├── data.html         # Data download
-├── visualizations.html # Data visualizations
-├── gallery.html      # Gallery of pictures
-└── assets/
-    ├── css/
-    │   └── style.css
-    ├── js/
-    │   └── script.js
-    ├── images/
-    └── data/
+title: Cavanaugh Lab Group
+description: Exploring the dynamics of coastal and marine ecosystems through advanced remote sensing.
+baseurl: "" # the subpath of your site, e.g. "/blog"
+url: "" # the base hostname & protocol for your site, e.g. "http://example.com"
