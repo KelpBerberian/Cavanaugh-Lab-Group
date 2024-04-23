@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: Cavanaugh Lab Group
 description: Dedicated to exploring and understanding marine and coastal ecosystems.
+baseurl: "" # the subpath of your site, e.g. "/blog"
+url: "" # the base hostname & protocol for your site, e.g. "http://example.com"
