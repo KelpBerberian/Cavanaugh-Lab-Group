@@ -1,14 +1,23 @@
 title: Cavanaugh Lab Group
-description: Exploring the dynamics of coastal and marine ecosystems through advanced remote sensing.
+description: Exploring the dynamics of coastal and marine ecosystems through remote sensing techniques.
 baseurl: ""  # This should be empty unless you are placing your site in a folder
 url: "https://cavanaugh-lab-group.github.io"
 
 markdown: kramdown
-theme: minima  # Replace with any theme supported by GitHub Pages
+theme: jekyll-theme-minimal  # Or any other theme supported by GitHub Pages.
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 exclude:
+  - README.md
+  - node_modules
+  - package.json
   - Gemfile
   - Gemfile.lock
+
+include:
+  - .htaccess
+
+permalink: /:categories/:year/:month/:day/:title/
