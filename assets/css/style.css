@@ -1,64 +1,67 @@
-/* Basic Reset */
-body, h1, h2, h3, p, ul, li, nav, header, footer {
+/* General Body Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern Font */
+  background-color: #f0f0f0; /* Light grey background for better readability */
+  color: #333; /* Dark grey text for better readability */
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-body {
-  font-family: 'Arial', sans-serif; /* Modern font */
-  background-color: #f4f4f4; /* Lighter background */
-  color: #333; /* Darker text for better readability */
-  line-height: 1.6;
-  padding: 20px;
-}
-
+/* Header Styles */
 header {
-  background-color: #005A9C; /* A nice blue */
+  background-color: #00457C; /* Dark blue background */
   color: #ffffff;
+  padding: 1rem 0;
   text-align: center;
-  padding: 20px 0;
-}
-
-header h1 {
-  margin: 0 0 10px 0;
 }
 
 nav ul {
   list-style: none;
-  background-color: #007BFF; /* A slightly different blue for the nav */
-  text-align: center;
-  padding: 10px 0;
+  padding: 0;
 }
 
 nav ul li {
-  display: inline;
+  display: inline; /* Inline display for a horizontal navigation */
+  margin-right: 20px;
 }
 
 nav ul li a {
   color: white;
-  padding: 10px 15px;
   text-decoration: none;
   font-weight: bold;
+  padding: 8px 16px; /* Padding for better touch area and visual appearance */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
 }
 
 nav ul li a:hover, nav ul li a:focus {
-  background-color: #00376B; /* Darker blue on hover/focus */
+  background-color: #007BFF; /* Lighter blue on hover/focus */
+  color: #ffffff;
 }
 
+/* Main content area styling */
 main {
   padding: 20px;
   background: white;
-  margin-top: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds shadow for depth */
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
+/* Footer Styles */
 footer {
-  text-align: center;
-  padding: 20px 0;
   background-color: #333;
   color: white;
-  position: absolute;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+footer a {
+  color: #0096FF; /* Light blue links for contrast */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
