@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title | default: site.title | default: "Default Title" }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title | default: "Default Title" }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <nav>
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/research.html' | relative_url }}">Research</a></li>
-        <li><a href="{{ '/people.html' | relative_url }}">People</a></li>
-        <li><a href="{{ '/data.html' | relative_url }}">Data Download</a></li>
-        <li><a href="{{ '/gallery.html' | relative_url }}">Gallery</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
+    <header>
+        <h1>{{ site.title }}</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/research.html' | relative_url }}">Research</a></li>
+                <li><a href="{{ '/people.html' | relative_url }}">People</a></li>
+                <li><a href="{{ '/data.html' | relative_url }}">Datasets</a></li>
+                <li><a href="{{ '/gallery.html' | relative_url }}">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <p>This project is maintained by the Cavanaugh Lab Group at the University of California Los Angeles.
+    </footer>
+</body>
+</html>
