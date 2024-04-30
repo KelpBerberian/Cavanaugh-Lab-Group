@@ -1,37 +1,64 @@
-/* Add your custom styles here */
-body {
-  background-color: #f0f0f0; /* Light gray background */
+/* Basic Reset */
+body, h1, h2, h3, p, ul, li, nav, header, footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header, footer {
-  background-color: #333; /* Dark gray header and footer */
-  color: #fff; /* White text */
+body {
+  font-family: 'Arial', sans-serif; /* Modern font */
+  background-color: #f4f4f4; /* Lighter background */
+  color: #333; /* Darker text for better readability */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background-color: #005A9C; /* A nice blue */
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0 0 10px 0;
 }
 
 nav ul {
-  list-style-type: none; /* Remove bullet points from navigation */
+  list-style: none;
+  background-color: #007BFF; /* A slightly different blue for the nav */
+  text-align: center;
+  padding: 10px 0;
 }
 
 nav ul li {
   display: inline;
-  margin-right: 10px;
 }
 
 nav ul li a {
-  color: #fff; /* White text for navigation links */
+  color: white;
+  padding: 10px 15px;
   text-decoration: none;
+  font-weight: bold;
 }
 
-nav ul li a:hover {
-  text-decoration: underline; /* Underline on hover */
+nav ul li a:hover, nav ul li a:focus {
+  background-color: #00376B; /* Darker blue on hover/focus */
 }
 
 main {
-  padding: 20px; /* Add padding to main content */
+  padding: 20px;
+  background: white;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds shadow for depth */
 }
 
 footer {
-  padding: 10px;
   text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
-
