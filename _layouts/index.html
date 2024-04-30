@@ -3,27 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title | default: "Default Title" }}</title>
+    <title>Cavanaugh Lab Group</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <style>
+        /* Additional CSS styles for the homepage */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>{{ site.title }}</h1>
+        <h1>Cavanaugh Lab Group</h1>
         <nav>
             <ul>
-                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>
                 <li><a href="{{ '/research.html' | relative_url }}">Research</a></li>
                 <li><a href="{{ '/people.html' | relative_url }}">People</a></li>
-                <li><a href="{{ '/data.html' | relative_url }}">Datasets</a></li>
+                <li><a href="{{ '/data.html' | relative_url }}">Data Sets</a></li>
                 <li><a href="{{ '/gallery.html' | relative_url }}">Gallery</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        {{ content }}
-    </main>
-    <footer>
-        <p>This project is maintained by the Cavanaugh Lab Group at the University of California Los Angeles.</p>
-    </footer>
-</body>
-</html>
