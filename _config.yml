@@ -4,7 +4,7 @@ description: Exploring the dynamics of coastal and marine ecosystems through rem
 baseurl: ""  # This should be empty unless you are placing your site in a folder
 url: "https://cavanaugh-lab-group.github.io"
 markdown: kramdown
-theme: jekyll-theme-minimal  # Or any other theme supported by GitHub Pages.
+theme: jekyll-theme-minimal
 
 plugins:
   - jekyll-feed
