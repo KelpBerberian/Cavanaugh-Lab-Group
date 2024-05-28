@@ -1,5 +1,4 @@
 # Site Build Settings
-# Site Build Settings
 
 # jekyll-paginate configuration
 paginate:            5
@@ -11,41 +10,10 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:               "Cavanaugh Lab Group"
-description:         "The Cavanaugh Lab focuses on understanding the ecological impacts of climate change on coastal and marine ecosystems, including kelp forests and mangrove habitats, through remote sensing, ecological modeling, and field observations."
-author:              "University of California Los Angeles, Geography Department"
+title:		           "Millennial"
+description:	       "a minimalist Jekyll theme for running a blog or publication"
+author:              "Paul Le"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
-
-# Site settings
-baseurl: "" # the subpath of your site, e.g., /blog
-url: "https://cavanaugh-lab-group.github.io" # the base hostname & protocol for your site
-
-# Social media settings
-social:
-  twitter: your-twitter-username
-  github: your-github-username
-  linkedin: your-linkedin-username
-  disqus:
-    shortname: your-disqus-shortname
-
-# Menu items
-menu:
-  - text: "Home"
-    link: "/"
-  - text: "About"
-    link: "/about/"
-  - text: "Collaborators"
-    link: "/collaborators/"
-  - text: "Datasets"
-    link: "/datasets/"
-  - text: "People"
-    link: "/people/"
-  - text: "Pictures"
-    link: "/pictures/"
-  - text: "Research"
-    link: "/research/"
-  - text: "Contact"
-    link: "/contact/"
