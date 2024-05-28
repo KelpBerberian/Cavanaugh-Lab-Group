@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "About the Author"
-author: "Paul Le"
+title: "Gallery"
+author: "All photos were taken by our very own lab group members!"
 categories: facts
 tags: [sample]
 image: cuba-2.jpg

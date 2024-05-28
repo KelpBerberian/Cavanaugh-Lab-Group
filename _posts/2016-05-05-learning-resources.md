@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Learning Resources"
-author: "Paul Le"
+title: "Datasets"
+author: "Updated May 2024"
 categories: resources
 tags: [documentation,sample]
 image: arctic-2.jpg

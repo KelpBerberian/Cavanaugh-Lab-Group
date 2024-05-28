@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Welcome to Millennial!"
-author: "Paul Le"
+title: "Research"
+author: "Updated on May 2024"
 categories: documentation
 tags: [documentation,sample]
 image: cuba-1.jpg

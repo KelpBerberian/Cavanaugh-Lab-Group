@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Getting Started"
-author: "Paul Le"
+title: "People"
+author: "Updated May 2024"
 categories: documentation
 tags: [documentation,sample]
 image: city-1.jpg
