@@ -8,11 +8,12 @@ google-ID: 'UA-112060364-2'
 
 menu:
 menu:
-- {name: 'Research',  url: '2016-04-04-about-the-author'}
-- {name: 'People', url: '2016-05-05-learning-resources'}
-- {name: 'Collaborators', url: '2016-09-09-text-formatting'}
-- {name: 'Datasets', url: '2016-10-10-getting-started'}
-- {name: 'Gallery', url: '2017-01-01-welcome-to-millennial'}
+menu:
+- {name: 'Research',  url: 'research'}
+- {name: 'People', url: 'people'}
+- {name: 'Collaborators', url: 'collaborators'}
+- {name: 'Datasets', url: 'datasets'}
+- {name: 'Gallery', url: 'gallery'}
 - {name: 'Contact', url: 'contact'}  
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
