@@ -1,19 +1,16 @@
-# Site Build Settings
+# Site Build Settings and text
+title: "Cavanaugh Lab Group"
+description: "The Cavanaugh Lab focuses on understanding the ecological impacts of climate change on coastal and marine ecosystems, including kelp forests and mangrove habitats, through remote sensing, ecological modeling, and field observations"
+author: "University of California Los Angeles, Geography Department"
 
-# jekyll-paginate configuration
-paginate:            5
+# Build settings and jekyll-paginate configuration
+paginate: 5
+markdown: kramdown
+highlighter: rouge
+permalink: /:title
+plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
-# Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+# Uncomment for RSS 2.0
+# feed:
+#   path: rss-feed.xml
 
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Cavanaugh Lab Group"
-
-author:              "University of California Los Angeles, Geography Department"
-
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml
