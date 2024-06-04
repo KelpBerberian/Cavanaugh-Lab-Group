@@ -1,6 +1,7 @@
 ---
-layout: category
-title: Interesting Facts
-category: facts
-permalink: /facts
+layout: page
+title: "Datasets"
+permalink: /datasets/
 ---
+
+Content for the datasets page.

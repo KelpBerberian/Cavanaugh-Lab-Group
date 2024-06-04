@@ -1,6 +1,7 @@
 ---
-layout: category
-title: Sample Posts
-category: sample
-permalink: /sample-posts
+layout: page
+title: "Contact"
+permalink: /contact/
 ---
+
+Content for the contact page.

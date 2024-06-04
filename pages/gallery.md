@@ -1,6 +1,7 @@
 ---
-layout: category
-title: Learning Resources
-category: resources
-permalink: /resources
+layout: page
+title: "Gallery"
+permalink: /gallery/
 ---
+
+Content for the gallery page.
